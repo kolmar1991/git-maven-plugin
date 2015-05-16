@@ -36,7 +36,7 @@ public class GitPropertiesUtil {
         new DiffMaker(git, System.out).putDiffToStream();
     }
 
-    private Properties prepareGitProperties() throws IOException {
+    public Properties prepareGitProperties() throws IOException {
         Properties properties = new Properties();
         properties.put(BRANCH_NAME, repository.getBranch());
         properties.put(AUTHOR_NAME, getAuthorName(repository));
