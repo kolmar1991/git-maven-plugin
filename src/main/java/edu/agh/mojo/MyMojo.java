@@ -1,4 +1,4 @@
-package git;
+package edu.agh.mojo;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -12,7 +12,5 @@ import org.apache.maven.plugin.MojoExecutionException;
 public class MyMojo extends AbstractMojo {
     public void execute() throws MojoExecutionException {
         getLog().info("Hello  world!");
-
-
     }
 }

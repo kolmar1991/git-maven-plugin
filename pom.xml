@@ -13,5 +13,10 @@
             <artifactId>maven-plugin-api</artifactId>
             <version>2.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit</artifactId>
+            <version>4.0.0.201505050340-m2</version>
+        </dependency>
     </dependencies>
 </project>
