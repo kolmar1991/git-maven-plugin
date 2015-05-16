@@ -62,7 +62,6 @@ public class MyMojo extends AbstractMojo {
     private List<MavenProject> reactorProjects;
 
     public void execute() throws MojoExecutionException {
-        getLog().info("Hello  world!");
         try {
             File dotGitDirectory = new File(gitDirectory);
             FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
